@@ -30,6 +30,18 @@ $ git checkout --orphan gh-pages
 $ git rm -rf .
 ```
 
+Add some arbitrary readme.md (or something alse, the main point is to make commit)
+
+```
+$ touch readme.md
+```
+
+Commit and push
+
+```
+$ git add readme.md && git commit -m "Init presentation" && git push origin gh-pages
+```
+
 Now you can add your presentation files
 
 Source: https://help.github.com/articles/creating-project-pages-manually/#create-a-gh-pages-branch
