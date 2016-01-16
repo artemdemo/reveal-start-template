@@ -18,6 +18,9 @@ $ npm run build && npm run watch
 
 ## Create gh-pages branch
 
+**Notice** You will need to edit `.gitignore` file in order to make it work.
+See comments inside `.gitignore` for more information.
+
 Creates our branch, without any parents (it's an orphan!) and switch to the new branch
 
 ```
