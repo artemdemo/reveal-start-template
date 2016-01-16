@@ -4,7 +4,7 @@
   "description": "Reveal.js starter template",
   "main": "index.js",
   "scripts": {
-    "setup": "npm install && bower install && npm run build",
+    "setup": "npm install && bower install && npm run build && rm dist/.gitignore",
     "build": "gulp build",
     "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"

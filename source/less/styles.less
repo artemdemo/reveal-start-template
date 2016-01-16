@@ -41,11 +41,16 @@
         }
     }
 
-    section img.clean-img {
-        width: 35%;
-        background: none;
-        border: none;
-        box-shadow: none;
+    section img {
+        &.clean-img {
+            background: none;
+            border: none;
+            box-shadow: none;
+        }
+
+        &.round {
+            border-radius: 5px;
+        }
     }
 }
 small, h1 small, h2 small, h3 small {

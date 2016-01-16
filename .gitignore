@@ -1,6 +1,8 @@
 .idea
 node_modules
 *.log
-bower_components
 
+# Remove following lines if you're going to upload your presentation to gh-pages
+bower_components
 index.html
+dist/*
