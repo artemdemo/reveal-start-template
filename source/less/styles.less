@@ -1,0 +1,53 @@
+@import (inline) '../../bower_components/reveal.js/css/reveal.css';
+// Color theme
+@import (inline) '../../bower_components/reveal.js/css/theme/black.css';
+// Code syntax highlighting
+@import (inline) '../../bower_components/reveal.js/lib/css/zenburn.css';
+// Font awesome
+@import (inline) '../../node_modules/font-awesome/css/font-awesome.min.css';
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext);
+
+.reveal {
+    &, h1, h2, h3, h4, h5, h6 {
+        font-family: 'Open Sans', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        text-transform: none;
+    }
+    pre code {
+        max-height: 500px;
+    }
+    td {
+        vertical-align: middle;
+    }
+
+    /**
+     * Code example (inside <pre></pre>) will take less place
+     *
+     * @example
+     * <section class="narrow-code">
+     * ....
+     * </section>
+     */
+    .narrow-code {
+        pre {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        pre code {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+
+    section img.clean-img {
+        width: 35%;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+}
+small, h1 small, h2 small, h3 small {
+    opacity: 0.2;
+}

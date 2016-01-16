@@ -1,0 +1,10 @@
+<section class="narrow-code">
+    <h2>Narrow code</h2>
+    <pre><code>
+    function* getUserResume(userId) {
+        let user = yield fetchUserData(userId);         // Promise
+        let resume = yield fetchResume(user.resumeId);  // Promise
+        return resume;
+    }
+    </code></pre>
+</section>

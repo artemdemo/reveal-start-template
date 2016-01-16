@@ -1,0 +1,17 @@
+<section>
+    <h2>Generators</h2>
+    <p>Two ways communication <i class="fa fa-arrows-h"></i> yield</p>
+    <pre><code>
+    function *sumGenerator() {
+        let x = yield "First value";
+        let y = yield "Second value";
+        return x + y;
+    }
+    </code></pre>
+    <pre class="fragment"><code>
+    let sum = sumGenerator();
+    sum.next();    // {"value":"First value","done":false}
+    sum.next(3);   // {"value":"Second value","done":false}
+    sum.next(8);   // {"value":11,"done":true}
+    </code></pre>
+</section>

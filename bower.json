@@ -1,0 +1,21 @@
+{
+  "name": "reveal-start-template",
+  "description": "Reveal.js starter template",
+  "main": "index.js",
+  "authors": [
+    "Artem Demo"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~3.2.0"
+  }
+}
