@@ -15,6 +15,11 @@ Then you can build it and watch
 $ npm run build && npm run watch
 ```
 
+Start local server with livereload
+
+```
+$ npm run server
+```
 
 ## Create gh-pages branch
 
@@ -55,8 +60,3 @@ Source: https://help.github.com/articles/creating-project-pages-manually/#create
 I'm using 'Open Sans' (Latin and Cyrillic) from google fonts.
 
 I also added 'font-awesome' (from npm).
-
-
-## Plans
-
-* Add livereload
